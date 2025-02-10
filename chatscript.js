@@ -78,7 +78,7 @@ function handlechatResponse(userMessage) {
     chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: "smooth" });
 
     setTimeout(() => {
-        let html = `<img src="ai.png" alt="" id="aiImage" width="10%">
+        let html = `<img src="penguin.png" alt="" id="aiImage" width="10%">
         <div class="ai-chat-area">
             <img src="loading.webp" alt="" class="load" width="50px">
         </div>`;
